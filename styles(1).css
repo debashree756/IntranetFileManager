@@ -1,0 +1,39 @@
+H1 {
+   font-family: 'Times New Roman';
+   font-size: 36px;
+   background: #ffffff;
+   color: yellow;
+}
+
+H2 {
+   font-family: arial,verdana,sans-serif;
+   font-size: 30px;
+   background: #ffffff;
+   color:red ;
+}
+
+P {
+   font-family: arial,verdana,sans-serif;
+   font-size: 16px;
+   background: #ffffff;
+   color: green;
+}
+
+#header{ 
+position:absolute;
+width:920px;
+height:100px;
+z-index:1;
+top: 25px;
+}
+#footer {
+position:absolute;
+width:920px;
+height:30px;
+z-index:3;
+}
+#aside {
+      position: fixed;
+      top: 20px;
+      border: 1px solid red;
+    }
